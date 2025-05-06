@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Updates - Allibiya Gases</title>
+    <meta name="description" content="Stay updated with the latest news, industry insights, and developments from Allibiya Gases. Read about our innovations and industry trends.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-[Inter]">
+    <!-- Header (Same as index.html) -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <!-- Navigation content same as index.html -->
+    </header>
+
+    <!-- Page Hero -->
+    <section class="pt-32 pb-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">News & Updates</h1>
+                <p class="text-xl text-gray-600">Stay informed about our latest developments, industry insights, and company news.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="relative h-64 md:h-auto">
+                        <img src="assets/images/featured-news.jpg" alt="New Facility Opening" class="absolute inset-0 w-full h-full object-cover">
+                    </div>
+                    <div class="p-8 md:p-12">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">Company News</span>
+                            <span class="text-gray-500 text-sm ml-4">March 15, 2024</span>
+                        </div>
+                        <h2 class="text-3xl font-bold mb-4">New State-of-the-Art Production Facility Opens in Tripoli</h2>
+                        <p class="text-gray-600 mb-6">Allibiya Gases expands its production capacity with a new facility featuring the latest gas production and purification technology...</p>
+                        <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Grid -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <!-- Category Filter -->
+            <div class="flex flex-wrap justify-center gap-4 mb-16">
+                <button class="px-6 py-2 rounded-full bg-blue-600 text-white" data-category="all">All News</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 hover:bg-blue-600 hover:text-white transition" data-category="company">Company News</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 hover:bg-blue-600 hover:text-white transition" data-category="industry">Industry Insights</button>
+                <button class="px-6 py-2 rounded-full bg-gray-200 hover:bg-blue-600 hover:text-white transition" data-category="technology">Technology</button>
+            </div>
+
+            <!-- News Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="assets/images/news-1.jpg" alt="Safety Certification" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-medium">Company News</span>
+                            <span class="text-gray-500 text-sm ml-4">March 10, 2024</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Allibiya Gases Receives ISO 45001:2018 Certification</h3>
+                        <p class="text-gray-600 mb-4">Our commitment to workplace safety and health management has been recognized with the latest ISO certification...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-700">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="assets/images/news-2.jpg" alt="Industry Trends" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-medium">Industry Insights</span>
+                            <span class="text-gray-500 text-sm ml-4">March 5, 2024</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">The Future of Industrial Gas Applications</h3>
+                        <p class="text-gray-600 mb-4">Exploring emerging trends and innovations in industrial gas applications across various sectors...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-700">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="assets/images/news-3.jpg" alt="Technology Update" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-medium">Technology</span>
+                            <span class="text-gray-500 text-sm ml-4">March 1, 2024</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">New Gas Analysis Technology Implementation</h3>
+                        <p class="text-gray-600 mb-4">Implementing cutting-edge gas analysis technology to ensure the highest product quality...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-700">Read More →</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center mt-12">
+                <button class="bg-white border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-md hover:bg-blue-50 transition">
+                    Load More Articles
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="bg-blue-600 rounded-lg p-8 md:p-12">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-white mb-4">Stay Updated</h2>
+                    <p class="text-xl text-blue-100 mb-8">Subscribe to our newsletter for the latest news and industry insights</p>
+                    <form class="flex flex-col md:flex-row gap-4 justify-center">
+                        <input type="email" placeholder="Enter your email" class="px-6 py-3 rounded-md flex-1 max-w-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <button type="submit" class="bg-white text-blue-600 px-8 py-3 rounded-md hover:bg-gray-100 transition">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-gray-900 text-white py-12">
+        <!-- Footer content same as index.html -->
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html> 
