@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industries We Serve - Allibiya Gases</title>
+    <meta name="description" content="Discover the industries we serve at Allibiya Gases. From healthcare to manufacturing, we provide high-quality gas solutions for various sectors.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-[Inter]">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center space-x-2">
+                    <img src="assets/images/logo.png" alt="Allibiya Gases Logo" class="h-12">
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-blue-600 transition">Home</a>
+                    <a href="about.html" class="text-gray-800 hover:text-blue-600 transition">About Us</a>
+                    <a href="products.html" class="text-gray-800 hover:text-blue-600 transition">Products & Services</a>
+                    <a href="industries.html" class="text-blue-600 font-medium">Industries</a>
+                    <a href="news.html" class="text-gray-800 hover:text-blue-600 transition">News</a>
+                    <a href="contact.html" class="text-gray-800 hover:text-blue-600 transition">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button data-mobile-menu-button class="md:hidden text-gray-800">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div data-mobile-menu class="mobile-menu hidden md:hidden">
+                <div class="flex flex-col space-y-4 py-4">
+                    <a href="index.html" class="text-gray-800 hover:text-blue-600 transition">Home</a>
+                    <a href="about.html" class="text-gray-800 hover:text-blue-600 transition">About Us</a>
+                    <a href="products.html" class="text-gray-800 hover:text-blue-600 transition">Products & Services</a>
+                    <a href="industries.html" class="text-blue-600 font-medium">Industries</a>
+                    <a href="news.html" class="text-gray-800 hover:text-blue-600 transition">News</a>
+                    <a href="contact.html" class="text-gray-800 hover:text-blue-600 transition">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 animate-slide-left">Industries We Serve</h1>
+                <p class="text-xl animate-slide-right">Providing specialized gas solutions across diverse sectors. Our expertise spans multiple industries, ensuring optimal performance and safety.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Grid -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Healthcare -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-hospital text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Healthcare</h3>
+                        <p class="text-gray-600 mb-4">Supporting medical facilities with life-saving gases and equipment.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Medical oxygen
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Nitrous oxide
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Medical air systems
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Manufacturing -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-industry text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Manufacturing</h3>
+                        <p class="text-gray-600 mb-4">Powering industrial processes with reliable gas solutions.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Welding gases
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Process gases
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Bulk supply systems
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Food & Beverage -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-utensils text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Food & Beverage</h3>
+                        <p class="text-gray-600 mb-4">Ensuring food safety and quality with specialized gas solutions.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Food-grade gases
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Modified atmosphere packaging
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Beverage carbonation
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Research & Development -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-flask text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Research & Development</h3>
+                        <p class="text-gray-600 mb-4">Supporting scientific advancement with high-purity gases.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Ultra-high purity gases
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Custom gas mixtures
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Analytical services
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Energy -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-bolt text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Energy</h3>
+                        <p class="text-gray-600 mb-4">Supporting power generation and renewable energy projects.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Generator cooling
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Emissions monitoring
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Process optimization
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Environmental -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="relative h-48 bg-blue-100">
+                        <i class="fas fa-leaf text-6xl text-blue-600 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Environmental</h3>
+                        <p class="text-gray-600 mb-4">Supporting environmental monitoring and protection efforts.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Calibration gases
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Emissions testing
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Water treatment
+                            </li>
+                        </ul>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center">
+                            Learn More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailored Solutions Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <h2 class="text-3xl font-bold mb-6">Tailored Industry Solutions</h2>
+                <p class="text-gray-600">We understand that each industry has unique requirements. Our team of experts works closely with you to develop customized gas solutions that meet your specific needs.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-tie text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Expert Consultation</h3>
+                    <p class="text-gray-600">Industry-specific expertise to guide your gas solution needs</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Custom Solutions</h3>
+                    <p class="text-gray-600">Tailored gas solutions for your specific applications</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Optimization Services</h3>
+                    <p class="text-gray-600">Continuous improvement of your gas systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">Need Industry-Specific Solutions?</h2>
+                <p class="text-gray-600 mb-8">Contact our team of experts to discuss your requirements</p>
+                <a href="contact.html" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="assets/images/logo-white.png" alt="Allibiya Gases Logo" class="h-12 mb-4">
+                    <p class="text-gray-400">Leading provider of industrial, medical, and specialty gases in Libya.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition">Products</a></li>
+                        <li><a href="industries.html" class="text-gray-400 hover:text-white transition">Industries</a></li>
+                        <li><a href="news.html" class="text-gray-400 hover:text-white transition">News</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Tripoli, Libya</li>
+                        <li><i class="fas fa-phone mr-2"></i> +218 91-XXXXXXX</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@allibiya-gases.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Allibiya Gases. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html> 
